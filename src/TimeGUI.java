@@ -12,7 +12,6 @@ public class TimeGUI extends JFrame {
 	
 	private SimpleDateFormat _timeFormat, _dayFormat, _dateFormat;
 	private JLabel _timeLabel, _dayLabel, _dateLabel;
-	private String _time, _day, _date;
 	
 	TimeGUI() {
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
