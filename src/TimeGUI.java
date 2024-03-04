@@ -21,7 +21,7 @@ public class TimeGUI extends JFrame {
 		this.setTitle("TIME");
 		this.setLayout(new GridLayout(0,1));
 		
-		_timeFormat = new SimpleDateFormat("hh:mm:ss");
+		_timeFormat = new SimpleDateFormat("kk:mm:ss");
 		_dayFormat = new SimpleDateFormat("EEEE");
 		_dateFormat = new SimpleDateFormat("dd.MM.yyyy");
 		
